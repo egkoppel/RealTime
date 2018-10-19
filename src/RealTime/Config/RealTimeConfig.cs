@@ -44,7 +44,7 @@ namespace RealTime.Config
         /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1702:CompoundWordsShouldBeCasedCorrectly", MessageId = "DayTime", Justification = "Reviewed")]
         [ConfigItem("1General", "0Time", 2)]
-        [ConfigItemSlider(1, 6, ValueType = SliderValueType.Default)]
+        [ConfigItemSlider(1, 500, ValueType = SliderValueType.Default)]
         public uint DayTimeSpeed { get; set; }
 
         /// <summary>
@@ -52,7 +52,7 @@ namespace RealTime.Config
         /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1702:CompoundWordsShouldBeCasedCorrectly", MessageId = "NightTime", Justification = "Reviewed")]
         [ConfigItem("1General", "0Time", 3)]
-        [ConfigItemSlider(1, 6, ValueType = SliderValueType.Default)]
+        [ConfigItemSlider(1, 500, ValueType = SliderValueType.Default)]
         public uint NightTimeSpeed { get; set; }
 
         /// <summary>
